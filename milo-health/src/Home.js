@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Prescription from './components/Prescription'
+
 export const Home = () => (
     <div>
     <h1>Welcome to Milo!</h1>
@@ -12,5 +14,6 @@ Nulla fermentum ut metus sit amet porttitor. Praesent convallis faucibus neque, 
 Proin vehicula arcu lectus, elementum mattis elit interdum vitae. Mauris nec rhoncus dolor. Proin a dolor risus. Morbi blandit sodales mi, ultrices fringilla ipsum. Aenean vitae ante a leo lacinia sodales. Pellentesque diam arcu, cursus in urna non, euismod faucibus lacus. Nulla a porttitor sem, a eleifend arcu. Phasellus nibh purus, tempus vitae mollis nec, pretium nec est. Morbi in dolor turpis. Sed ornare maximus orci nec imperdiet. Vivamus hendrerit magna et nulla pretium pulvinar.
 
 Suspendisse nec euismod mauris, mattis consequat velit. Nullam nec fringilla sem, eget malesuada ligula. Ut a libero metus. Mauris eu arcu id dui sollicitudin viverra. Nulla in tincidunt mi. Vivamus posuere mollis ultricies. Aliquam dolor magna, congue nec auctor rutrum, rutrum non augue. Nulla vel laoreet ante. Phasellus vehicula tincidunt iaculis.</p>
+    <Prescription />
     </div>
 )
